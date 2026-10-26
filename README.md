@@ -137,7 +137,7 @@
 | Project | Description | Stack |
 |---------|-------------|-------|
 | 🛣️ **[RouteLens](https://github.com/MilindDevX/routelens)** · [![Live](https://img.shields.io/badge/Live-routelens--xi.vercel.app-6366f1?style=flat-square)](https://routelens-xi.vercel.app/) | Zero-backend, 100% client-side OpenAPI parser & structural JSON diff tool for developers | `Next.js 14` · `TypeScript` · `Tailwind CSS` |
-| 💰 **[BudgetFlow](https://github.com/MilindDevX/BudgetFlow)** | High-performance personal finance dashboard with SMA forecasting | `Next.js` · `Tailwind CSS` · `tRPC` |
+| 💰 **[BudgetFlow](https://github.com/MilindDevX/BudgetFlow)** | High-performance personal finance dashboard with SMA forecasting | `React` · `Vite` · `Tailwind CSS` · `Express` · `Prisma` |
 | 📝 **[QuickNotes](https://github.com/MilindDevX/QuickNotes)** | Fast, responsive serverless note-taking app | `React` · `NeonDB` |
 | 🌐 **[Portfolio](https://github.com/MilindDevX/portfolio)** | MDX-powered showcase using the Once UI design system | `Next.js 16` · `React 19` · `MDX` · `Sass` |
 | 🌬️ **[Beijing PM2.5 Analysis](https://public.tableau.com/app/profile/milind.bansal5979/)** | ETL + ML analysis on 5 years of air quality data; 3-tier public health alert framework | `Python` · `Pandas` · `scikit-learn` · `Tableau` |
