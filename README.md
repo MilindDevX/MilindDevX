@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>Milind Bansal</h1>
-  <h3>Machine Learning Engineer · Full-Stack Developer · Data Analyst</h3>
+  <h3>Applied AI &amp; Backend Engineer</h3>
 
   <p>
     <a href="https://portfolio-milind.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Site-6366f1?style=for-the-badge" alt="Portfolio" /></a>
@@ -10,15 +10,13 @@
     <a href="https://public.tableau.com/app/profile/milind.bansal5979/"><img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau Public" /></a>
   </p>
 
-  <img src="https://img.shields.io/badge/🟢_Open_to_Work-Full--Stack%20%7C%20MLE%20%7C%20Data%20Roles-22c55e?style=for-the-badge" alt="Open to Work" />
-
 </div>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🚀 I ship **production-grade AI + Full-Stack systems** — from an LLM feedback-triage SaaS in production to healthcare marketplaces with 58 automated tests and CDSCO regulatory compliance
+- 🚀 I ship **production-grade AI + Full-Stack systems** — from an LLM feedback-triage SaaS in production to a pharmacy marketplace with 58 automated tests and CDSCO regulatory compliance
 - 🧪 I **measure LLM systems, not just build them** — I maintain [evalbar](https://github.com/MilindDevX/evalbar), an open-source eval and tracing harness on PyPI
 - ⚙️ I care about **backend reliability** — [skipq](https://github.com/MilindDevX/skipq) is my Postgres-backed job queue in Go with leases, retries and race-tested workers
 - 🤖 I integrate **LLMs into real products** — not demos — using Groq, OpenAI, and Hugging Face Transformers with background job queues, AES-256 encryption, and sub-1.5s latency
@@ -41,7 +39,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### ⚙️ Backend & Infrastructure
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
@@ -102,7 +99,7 @@
 ---
 
 ### 🏥 MedMarket — Healthcare Marketplace Platform
-> Production-grade medical marketplace with consumer, pharmacy, and admin portals under full CDSCO/DPCO regulatory compliance.
+> Location-aware pharmacy marketplace for India with consumer, pharmacy and admin portals, built around CDSCO/DPCO compliance.
 
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/MilindDevX/medmarket)
 [![Live API](https://img.shields.io/badge/Live_API-Render-46E3B7?style=flat-square&logo=render)](https://medmarket-g08v.onrender.com/api/docs)
@@ -116,29 +113,27 @@
 ---
 
 ### 🤖 FeedbackOS — AI Feedback Triage SaaS
-> Eliminates 5–10 hrs/week of manual PM tagging by auto-classifying user feedback by theme, sentiment, and product area using LLMs.
+> Classifies customer feedback by theme, sentiment and product area with an LLM, and routes low-confidence results to human review.
 
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/MilindDevX/feedbackos)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-feedbackos.vercel.app-6366f1?style=flat-square)](https://feedbackos.vercel.app)
 ![Latency](https://img.shields.io/badge/Classification_Latency-~1.2s-orange?style=flat-square)
 ![Themes](https://img.shields.io/badge/Themes-7_Auto_Detected-blue?style=flat-square)
 
-- Two-process architecture: Next.js frontend + isolated BullMQ worker with AES-256-GCM credential encryption
+- Classification runs on Vercel Queues with PostgreSQL leases, a watchdog and a daily cron; integration credentials encrypted with AES-256-GCM
 - Magic-link auth via NextAuth v5, 48 demo items across 4 sentiment classes
 - **Stack:** `Next.js 16` · `Groq gpt-oss-120b` · `BullMQ 5` · `PostgreSQL (Neon)` · `Prisma 5` · `NextAuth v5` · `Recharts 3` · `Radix UI`
 
 ---
 
 <details>
-<summary><b>📂 More Projects (5)</b></summary>
+<summary><b>📂 More Projects (3)</b></summary>
 
 <br>
 
 | Project | Description | Stack |
 |---------|-------------|-------|
 | 🛣️ **[RouteLens](https://github.com/MilindDevX/routelens)** · [![Live](https://img.shields.io/badge/Live-routelens--xi.vercel.app-6366f1?style=flat-square)](https://routelens-xi.vercel.app/) | Zero-backend, 100% client-side OpenAPI parser & structural JSON diff tool for developers | `Next.js 14` · `TypeScript` · `Tailwind CSS` |
-| 💰 **[BudgetFlow](https://github.com/MilindDevX/BudgetFlow)** | High-performance personal finance dashboard with SMA forecasting | `React` · `Vite` · `Tailwind CSS` · `Express` · `Prisma` |
-| 📝 **[QuickNotes](https://github.com/MilindDevX/QuickNotes)** | Fast, responsive serverless note-taking app | `React` · `NeonDB` |
 | 🌐 **[Portfolio](https://github.com/MilindDevX/portfolio)** | MDX-powered showcase using the Once UI design system | `Next.js 16` · `React 19` · `MDX` · `Sass` |
 | 🌬️ **[Beijing PM2.5 Analysis](https://public.tableau.com/app/profile/milind.bansal5979/)** | ETL + ML analysis on 5 years of air quality data; 3-tier public health alert framework | `Python` · `Pandas` · `scikit-learn` · `Tableau` |
 
