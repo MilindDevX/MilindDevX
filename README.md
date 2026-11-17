@@ -16,7 +16,7 @@
 
 ## 👨‍💻 About Me
 
-- 🚀 I ship **production-grade AI + Full-Stack systems** — from an LLM feedback-triage SaaS in production to a pharmacy marketplace with 58 automated tests and CDSCO regulatory compliance
+- 🚀 I ship **production-grade AI + Full-Stack systems** — from an LLM feedback-triage SaaS in production to a pharmacy marketplace with 63 automated tests and CDSCO regulatory compliance
 - 🧪 I **measure LLM systems, not just build them** — I maintain [evalbar](https://github.com/MilindDevX/evalbar), an open-source eval and tracing harness on PyPI
 - ⚙️ I care about **backend reliability** — [skipq](https://github.com/MilindDevX/skipq) is my Postgres-backed job queue in Go with leases, retries and race-tested workers
 - 🤖 I integrate **LLMs into real products** — not demos — using Groq, OpenAI, and Hugging Face Transformers with background job queues, AES-256 encryption, and sub-1.5s latency
@@ -103,11 +103,11 @@
 
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat-square&logo=github)](https://github.com/MilindDevX/medmarket)
 [![Live API](https://img.shields.io/badge/Live_API-Render-46E3B7?style=flat-square&logo=render)](https://medmarket-g08v.onrender.com/api/docs)
-![Tests](https://img.shields.io/badge/Tests-58_Passing-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/Tests-63_Passing-brightgreen?style=flat-square)
 ![Routes](https://img.shields.io/badge/Protected_Routes-30+-blue?style=flat-square)
 
 - JWT 15-min access + 7-day refresh rotation, BullMQ + Redis expiry queue, Cloudinary asset management
-- 3 portals, 30+ protected routes, 38 backend + 20 frontend tests
+- 3 portals, 30+ protected routes, 40 backend + 23 frontend tests
 - **Stack:** `TypeScript` · `Node.js 22` · `Express 5` · `React 19` · `Vite 8` · `Prisma 7` · `BullMQ 5` · `Redis` · `PostgreSQL (Neon)`
 
 ---
